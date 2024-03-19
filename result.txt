@@ -1,0 +1,60 @@
+<div id="main">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-md-2 col-lg-2"></div><!-- end left tag -->
+			<div class="col-xs-12 col-md-8 col-lg-8" >
+				<div class="jumbotron">
+					 <div class="container">
+						<div class="row">
+							<h2 class="text-center">あなたのIQは：Ο</h2>
+							<div class="wrapper">
+							<canvas id="graph"></canvas>
+							</div>
+							<br>標準偏差15
+						</div>
+						<div class="row">
+							<p class="text-center"><input type="button" value="RESTART" onclick="location.reload()" class="btn btn-success" btn-lg></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2 col-lg-2"></div>
+			</div><!-- end right tag -->
+
+		</div><!-- row end tag -->
+	</div>	<!-- contenner end tag -->
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-md-3 col-lg-3"></div>
+				<div class="col-xs-12 col-md-6 col-lg-6" >
+
+<p class="text-center">
+<br>
+<br>
+<a href="https://inspirationlife.jp/iq2016jp-download/" alt="IQTEST2016JP ANSER" target="_blank">
+	<img id="cta_img"  src="https://inspirationlife.jp/iq2016jp/img/iq145info-pdf.png" alt="iq2016jp 答え"> </a>
+<br>
+<br>
+<a class="btn btn-tweet btn-lg" role="button" href="http://twitter.com/share?text=%E3%82%8F%E3%81%9F%E3%81%97%E3%81%AEIQ%E3%81%AFΟ%E3%81%A7%E3%81%97%E3%81%9F%EF%BC%81&url=http%3A%2F%2Finspirationlife.jp%2Fiq2016jp%2F&hashtags=iq2016jp" target="_blank">Twitter でシェアする</a>
+<a class="btn btn-fb btn-lg" role="button" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Finspirationlife.jp%2Fiq2016jp%2F" target="_blank"><img src="http://inspirationlife.jp/iq2016jp/img/fb.png" width="32px"></a>
+
+</p>
+
+					<p class="text-center">
+						&copy; 2015 <a href="http://inspirationlife.jp">inspirationlife.jp</a>
+						 | <a href="http://inspirationlife.jp/iq2016jp" rel="noindex,nofollow">IQ2016jp</a>
+						 - <a href="http://inspirationlife.jp/iq2016jp/privacypolicy.html" rel="noindex,nofollow">プライバシーポリシー</a>
+						  - <a href="http://inspirationlife.jp/iq2016jp/tokutei.html" rel="noindex,nofollow">特定商取引法に基づく表示</a>
+					</p>
+				</div>
+			<div class="col-xs-12 col-md-3 col-lg-3">
+
+
+
+
+
+			</div>
+		</div>
+	</div>
+</div>
+
+

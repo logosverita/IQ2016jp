@@ -1,0 +1,1 @@
+document.write('<span class="charengers"><p class="text-center">いままでに 30人が挑戦しました。</p></span>')

@@ -1,0 +1,128 @@
+<div id="main">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+				<h1>第1問</h1>
+				<script>
+					var limit = new Date().getTime() + 2580000;
+					 $('#now_time').countdown(limit, {elapse: true}).on('update.countdown', function(event) {
+						var $this = $(this);
+						if (event.elapsed) {
+							result();
+						} else {
+							$this.html(event.strftime('%M:%S'));
+						}
+					});
+				</script>
+				<span id="now_time" class="time_view"></span>
+			</div><!-- col-2 end tag -->
+
+			<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+				<div class="jumbotron">
+					 <div class="container" id="questions">
+						<div class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="thumbnail_challenge"><img src="img/q1/q1.gif"></div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="row">
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">A<div class="thumbnail"><img src="img/q1/q1-a.gif" onclick="click_anwers('a')"></div></div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">B<div class="thumbnail"><img src="img/q1/q1-b.gif" onclick="click_anwers('b')"></div></div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">C<div class="thumbnail"><img src="img/q1/q1-c.gif" onclick="click_anwers('c')"></div></div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">D<div class="thumbnail"><img src="img/q1/q1-d.gif" onclick="click_anwers('d')"></div></div>
+							</div>
+							<div class="row">
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">E<div class="thumbnail"><img src="img/q1/q1-e.gif" onclick="click_anwers('e')"></div></div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">F<div class="thumbnail"><img src="img/q1/q1-f.gif" onclick="click_anwers('f')"></div></div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">G<div class="thumbnail"><img src="img/q1/q1-g.gif" onclick="click_anwers('g')"></div></div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">H<div class="thumbnail"><img src="img/q1/q1-h.gif" onclick="click_anwers('h')"></div></div>
+							</div>
+						</div><!-- row end tag -->
+					</div><!-- contenner end tag -->
+				</div><!-- jumbo end tag -->
+			</div><!-- col-8 end tag -->
+			<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+				<table class="challenge_table">
+					<tbody>
+						<tr>
+							<td class="challenge_sell" onclick="change_question(1)" id="1"> 1</td>
+							<td class="challenge_sell" onclick="change_question(2)" id="2"> 2</td>
+							<td class="challenge_sell" onclick="change_question(3)" id="3"> 3</td>
+						</tr>
+						<tr>
+							<td class="challenge_sell" onclick="change_question(4)" id="4"> 4</td>
+							<td class="challenge_sell" onclick="change_question(5)" id="5"> 5</td>
+							<td class="challenge_sell" onclick="change_question(6)" id="6"> 6</td>
+						</tr>
+						<tr>
+							<td class="challenge_sell" onclick="change_question(7)" id="7"> 7</td>
+							<td class="challenge_sell" onclick="change_question(8)" id="8"> 8</td>
+							<td class="challenge_sell" onclick="change_question(9)" id="9"> 9</td>
+
+						</tr>
+						<tr>
+							<td class="challenge_sell" onclick="change_question(10)" id="10"> 10</td>
+							<td class="challenge_sell" onclick="change_question(11)" id="11"> 11</td>
+							<td class="challenge_sell" onclick="change_question(12)" id="12"> 12</td>
+
+						</tr>
+						<tr>
+							<td class="challenge_sell" onclick="change_question(13)" id="13"> 13</td>
+							<td class="challenge_sell" onclick="change_question(14)" id="14"> 14</td>
+							<td class="challenge_sell" onclick="change_question(15)" id="15"> 15</td>
+
+						</tr>
+						<tr>
+							<td class="challenge_sell" onclick="change_question(16)" id="16"> 16</td>
+							<td class="challenge_sell" onclick="change_question(17)" id="17"> 17</td>
+							<td class="challenge_sell" onclick="change_question(18)" id="18"> 18</td>
+						</tr>
+						<tr>
+							<td class="challenge_sell" onclick="change_question(19)" id="19"> 19</td>
+							<td class="challenge_sell" onclick="change_question(20)" id="20"> 20</td>
+							<td class="challenge_sell" onclick="change_question(21)" id="21"> 21</td>
+						</tr>
+						<tr>
+							<td class="challenge_sell" onclick="change_question(22)" id="22"> 22</td>
+							<td class="challenge_sell" onclick="change_question(23)" id="23"> 23</td>
+							<td class="challenge_sell" onclick="change_question(24)" id="24"> 24</td>
+						</tr>
+						<tr>
+							<td class="challenge_sell" onclick="change_question(25)" id="25"> 25</td>
+							<td class="challenge_sell" onclick="change_question(26)" id="26"> 26</td>
+							<td class="challenge_sell" onclick="change_question(27)" id="27"> 27</td>
+						</tr>
+						<tr>
+							<td class="challenge_sell" onclick="change_question(28)" id="28"> 28</td>
+							<td class="challenge_sell" onclick="change_question(29)" id="29"> 29</td>
+							<td class="challenge_sell" onclick="change_question(30)" id="30"> 30</td>
+						</tr>
+						<tr>
+							<td class="challenge_sell" onclick="change_question(31)" id="31"> 31</td>
+							<td class="challenge_sell" onclick="change_question(32)" id="32"> 32</td>
+							<td class="challenge_sell" onclick="change_question(33)" id="33"> 33</td>
+						</tr>
+						<tr>
+							<td class="challenge_sell" onclick="change_question(34)" id="34"> 34</td>
+							<td class="challenge_sell" onclick="change_question(35)" id="35"> 35</td>
+							<td class="challenge_sell" onclick="change_question(36)" id="36"> 36</td>
+						</tr>
+						<tr>
+							<td class="challenge_sell" onclick="change_question(37)" id="37"> 37</td>
+							<td class="challenge_sell" onclick="change_question(38)" id="38"> 38</td>
+						</tr>
+					</tbody>
+				</table>
+				<table>
+					<tbody class="menu_right">
+						<tr>
+							<td><input type="button" value="送信" onclick="result()" class="btn btn-success btn"></td>
+						</tr>
+					</tbody>
+				</table>
+			</div><!-- col-2 end tag -->
+		</div><!-- row end tag -->
+	</div>	<!-- contenner end tag -->
+	<p class="text-center">&copy; 2015 inspirationlife.jp</p>
+</div><!-- main end tag -->
